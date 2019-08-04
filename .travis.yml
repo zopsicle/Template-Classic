@@ -1,0 +1,13 @@
+{
+    "language": "nix",
+    "before_install": [
+        "sudo mkdir --parents /etc/nix",
+        "echo 'substituters = https://cache.nixos.org https://cp6t.cachix.org' | sudo tee --append /etc/nix/nix.conf",
+        "echo 'require-sigs = false'                                           | sudo tee --append /etc/nix/nix.conf",
+        "echo 'sandbox = true'                                                 | sudo tee --append /etc/nix/nix.conf"
+    ],
+    "script": [
+        "nix-build",
+        "result/share/TEST"
+    ]
+}
