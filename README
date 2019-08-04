@@ -1,0 +1,4 @@
+Template engine which allows embedding of arbitrary Perl 6 code and features
+escaping with HTML entities.
+
+See lib/Template/Classic.pm6 for usage.

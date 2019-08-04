@@ -1,0 +1,17 @@
+{
+    "name": "Template::Classic",
+    "version": "0.0.0",
+    "description": "Templates with arbitrary Perl 6 code inside them",
+
+    "authors": ["Chloé Kekoa"],
+    "license": "BSD-3-Clause",
+    "source-url": "https://github.com/chloekek/Template-Classic.git",
+    "tags": ["template", "web"],
+
+    "provides": {
+        "Template::Classic": "lib/Template/Classic.pm6"
+    },
+
+    "perl": "6.d",
+    "depends": []
+}
