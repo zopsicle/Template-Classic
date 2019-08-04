@@ -1,6 +1,6 @@
 {
     "name": "Template::Classic",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Templates with arbitrary Perl 6 code inside them",
 
     "authors": ["Chloé Kekoa"],
