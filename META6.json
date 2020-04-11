@@ -1,7 +1,7 @@
 {
     "name": "Template::Classic",
-    "version": "0.0.2",
-    "description": "Templates with arbitrary Perl 6 code inside them",
+    "version": "0.0.3",
+    "description": "Templates with arbitrary Raku code inside them",
 
     "authors": ["Chloé Kekoa"],
     "license": "BSD-3-Clause",
