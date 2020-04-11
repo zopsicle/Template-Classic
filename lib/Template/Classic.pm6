@@ -103,13 +103,13 @@ sub template(Signature:D $sig, Str:D $source --> Routine:D)
     }
 }
 
-#| Translate <, &, ", ' to their corresponding entities. The former two are
-#| translated to avoid conflict with tags and entities. The latter two are
+#| Translate <, >, &, ", ' to their corresponding entities. The former three 
+#| are translated to avoid conflict with tags and entities. The latter two are
 #| translated to avoid conflict with attribute value delimiters.
 our sub escape(Str() $_ --> Str:D)
 {
-    .trans: qw｢ <    &     "      '     ｣ =>
-            qw｢ &lt; &amp; &quot; &#39; ｣;
+    .trans: qw｢ <    >    &     "      '     ｣ =>
+            qw｢ &lt; &gt; &amp; &quot; &#39; ｣;
 }
 
 =begin pod
