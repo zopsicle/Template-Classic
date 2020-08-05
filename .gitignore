@@ -1,2 +1,7 @@
 /result
 /*.tar.gz
+/.precomp
+/*/.precomp
+.gitignore
+.idea/
+*.iml

@@ -1,17 +1,19 @@
 {
-    "name": "Template::Classic",
-    "version": "0.0.3",
-    "description": "Templates with arbitrary Raku code inside them",
-
-    "authors": ["Chloé Kekoa"],
-    "license": "BSD-3-Clause",
-    "source-url": "https://github.com/chloekek/Template-Classic.git",
-    "tags": ["template", "web"],
-
-    "provides": {
-        "Template::Classic": "lib/Template/Classic.pm6"
-    },
-
-    "perl": "6.d",
-    "depends": []
+  "name": "Template::Classic",
+  "description": "Templates with arbitrary Raku code inside them",
+  "version": "0.0.3",
+  "perl": "6.d",
+  "authors": [
+    "Chloé Kekoa"
+  ],
+  "depends": [],
+  "provides": {
+    "Template::Classic": "lib/Template/Classic.pm6"
+  },
+  "license": "BSD-3-Clause",
+  "tags": [
+    "template",
+    "web"
+  ],
+  "source-url": "https://github.com/chloekek/Template-Classic.git"
 }
