@@ -65,7 +65,7 @@ my class Actions
 {
     method TOP($/)
     {
-        make qq｢lazy gather \{ {$<part>.map({.made ~ “\n”}).join} \}｣;
+        make qq｢gather \{ {$<part>.map({.made ~ “\n”}).join} \}｣;
     }
 
     method text($/)
